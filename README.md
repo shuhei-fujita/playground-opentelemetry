@@ -4,6 +4,23 @@
 
 ![Screenshot 2023-10-20 at 0 11 40](https://github.com/shuhei-fujita/playground-opentelemetry/assets/38001967/eb521261-567e-4bad-a21d-d142c03f636e)
 
+## システム構成
+
+```mermaid
+graph TD
+  subgraph Jaeger
+    jaeger((Jaeger<br/>トレーシングサーバー))
+  end
+  subgraph Service1
+    service1((Service 1<br/>Pythonアプリ))
+  end
+  subgraph Service2
+    service2((Service 2<br/>Pythonアプリ))
+  end
+  service1 --> jaeger
+  service2 --> jaeger
+```
+
 ## 必要なツール
 
 - Docker
