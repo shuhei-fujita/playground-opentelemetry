@@ -2,6 +2,8 @@
 
 このリポジトリはOpenTelemetryとJaegerの実験と学習のためのプレイグラウンドです。特に、Receiver、Exporter、Processorの複数の構成を用いて通信の学習を行います。
 
+![Screenshot 2023-10-20 at 0 11 40](https://github.com/shuhei-fujita/playground-opentelemetry/assets/38001967/eb521261-567e-4bad-a21d-d142c03f636e)
+
 ## 必要なツール
 
 - Docker
